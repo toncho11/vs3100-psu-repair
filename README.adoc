@@ -85,8 +85,8 @@ The original capacitor values on this board are as follows:
 Note that for a full PSU recap you will need these parts _and_ those listed
 for the Model H7821-00.
 
-Instructions on how to disasmbly of H7821 by Peter Coghlan
-----------------------------------------------------------
+Instructions on how to disassemble the H7821 by Peter Coghlan
+-------------------------------------------------------------
 Press the four tabs on the back of the mains switch in to enable it to push through the panel it is mounted in.  Once it is free of the panel, it is easier to prise off the four spade connectors on the back of it.  They may be very tight so some leverage from a screwdriver or pliers may be needed.  Remember which connector goes where for putting them back on.
 
 Insert a large screwdriver or similar tool behind the IEC power inlet socket to press its tabs in, two tabs on one side, one tab on the other, to allow the socket to be eased out from the panel it is mounted in, one side at a time. Do the same for the power outlet socket if there is one.
