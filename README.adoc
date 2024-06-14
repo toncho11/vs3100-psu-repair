@@ -87,11 +87,13 @@ for the Model H7821-00.
 
 Instructions on how to disassemble the H7821 by Peter Coghlan
 -------------------------------------------------------------
-* Press the four tabs on the back of the mains switch (power button) in to enable it to push through the panel it is mounted in.  Once it is free of the panel, it is easier to prise off the four spade connectors on the back of it.  They may be very tight so some leverage from a screwdriver or pliers may be needed.  Remember which connector goes where for putting them back on.
+These instructions have been successfully tested on Model H7821-00 in 2024.
 
-* Insert a large screwdriver or similar tool behind the IEC power inlet socket (power input cable) to press its tabs in, two tabs on one side, one tab on the other, to allow the socket to be eased out from the panel it is mounted in, one side at a time. Do the same for the power outlet socket (power output monitor cable) if there is one.
+* Press the four tabs on the back of the mains switch (power button) in to enable it to push through the panel it is mounted in.  Once it is free of the panel, it is easier to prise off the four spade connectors on the back of it. They may be very tight so some leverage from a screwdriver or pliers may be needed. Remember which connector goes where for putting them back on.
 
-* Take off the spade connectors used to make the live and neutral connections to the IEC socket(s), remembering where they need to go back on. You can leave the earth connector on. Take off the outside nut on the earthing stud to release the earth wire going to the PCB. Assuming it has been assembled in the right order, you can leave on the nuts which secure the earth wires going to the IEC power socket(s), leaving the socket(s) dangling on the earth wire(s).
+* Insert a large screwdriver or similar tool behind the IEC power inlet socket (power input cable) to press its tabs in, two tabs on one side, one tab on the other, to allow the socket to be eased out from the panel it is mounted in, one side at a time. If there is one tab on the top then there will be two tabs on the bottom. Do the same for the power outlet socket (power output monitor cable) if there is one.
+
+* Take off the spade connectors used to make the live (phase) and neutral connections to the IEC socket(s), remembering where they need to go back on. You can leave the earth connector on. Take off the outside nut on the earthing stud to release the earth wire going to the PCB. Assuming it has been assembled in the right order, you can leave on the nuts which secure the earth wires going to the IEC power socket(s), leaving the socket(s) dangling on the earth wire(s).
 
 * Next remove the eight phillips screws holding the PCB into the frame.
 
@@ -99,4 +101,4 @@ Instructions on how to disassemble the H7821 by Peter Coghlan
 
 * It should now be possible to tilt and swivel the PCB out of the frame. There is a little cutout in the end of the board which allow it to get past the back of the green LED but be careful not to end up breaking the leads to it. A bit of fiddling with the cable harness might be required to extract part of it from between the frame and the fans but it should not be necessary to disengage it completely from the frame in order to get at the back of the PCB.
 
-Do not attempt to remove the fans from the frame as the rivet-like things they are secured with cannot easily be reused and if they are replaced with nuts and bolts, the may end up vibrating loose or shorting to something on the board or both.
+Warning: Do not attempt to remove the fans from the frame as the rivet-like things they are secured with cannot easily be reused and if they are replaced with nuts and bolts, the may end up vibrating loose or shorting to something on the board or both.
