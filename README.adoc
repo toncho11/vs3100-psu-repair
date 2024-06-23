@@ -33,15 +33,15 @@ The original capacitor values are as follows:
 
 [%autowidth]
 |===
-| Designator | Quantity | Description
+| Designator | Quantity | Description | Diameter 
 
-| C1–C5      | 5        | 1800uF 25V 105C, low ESR
-| C6, C11    | 2        | 330uF 25V 85C
-| C7–C10     | 4        | 10uF 35V 85C
-| C12        | 1        | 470uF 25V 85C
-| C13, C14   | 2        | 470uF 250WV 105C
-| C15        | 1        | 39uF 16V 85C
-| C16        | 1        | 47uF 16V 105C
+| C1–C5      | 5        | 1800uF 25V 105C, low ESR | 0
+| C6, C11    | 2        | 330uF 25V 85C            | 0
+| C7–C10     | 4        | 10uF 35V 85C             | 0
+| C12        | 1        | 470uF 25V 85C            | 0
+| C13, C14   | 2        | 470uF 250WV 105C         | 0
+| C15        | 1        | 39uF 16V 85C             | 0 
+| C16        | 1        | 47uF 16V 105C            | 0
 |===
 
 I usually replace all of these by 105C capacitors of the same or higher
