@@ -35,7 +35,7 @@ The original capacitor values are as follows:
 |===
 | Designator | Quantity | Description | Diameter 
 
-| C1–C5      | 5        | 1800uF 25V 105C, low ESR | 0
+| C1–C5      | 5        | 1800uF 25V 105C, low ESR | 12 mm
 | C6, C11    | 2        | 330uF 25V 85C            | 0
 | C7–C10     | 4        | 10uF 35V 85C             | 0
 | C12        | 1        | 470uF 25V 85C            | 0
