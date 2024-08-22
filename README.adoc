@@ -1,7 +1,7 @@
 # DIGITAL VAXstation 3100 PSU Repair
 Malte Dehling <mdehling@gmail.com>
 
-:imagesdir: https://raw.githubusercontent.com/mdehling/vs3100-psu-repair/main/img/
+:imagesdir: https://raw.githubusercontent.com/toncho11/vs3100-psu-repair/main/img/
 
 
 The VAXstation 3100 power supplies are plagued with the usual leaky capacitor
@@ -52,6 +52,11 @@ NOTE: In my experience, testing the PSU without a load works well enough.  The
 fans come on and the voltages are about right.  However, the LED doesn't light
 up until there is at least some load.
 
+Voltages:
+
+image::vax_station_3100_M38_PSU_pinout.png["Output voltages on each pin"]
+
+Please note that 9V is between pins 13 and 14.
 
 Model H7822-00
 --------------
