@@ -27,7 +27,7 @@ Here is a view of the main PCB from above, i.e., component side up:
 image::h7821-00.svg["H7821-00 Capacitor Locations"]
 
 Note that C15 and C16 are mounted to little daughter boards.  The negative
-side for C15 is the one closest to the main PCB.
+side for C15 is the one closest to the main PCB. C16 negative side is shown on the the diagram. It is opposite of the fans.
 
 The original capacitor values are as follows:
 
