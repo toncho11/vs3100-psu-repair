@@ -39,7 +39,7 @@ The original capacitor values are as follows:
 | C6, C11    | 2        | 330uF 25V 85C            | 10 mm
 | C7–C10     | 4        | 10uF 35V 85C             | 6 mm
 | C12        | 1        | 470uF 25V 85C            | 10 mm
-| C13, C14   | 2        | 470uF 250WV 105C         | 30 mm
+| C13, C14   | 2        | 470uF 250V 105C         | 30 mm
 | C15        | 1        | 39uF 16V 85C             | 6 mm
 | C16        | 1        | 47uF 16V 105C            | 8 mm
 |===
