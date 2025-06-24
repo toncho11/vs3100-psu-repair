@@ -50,7 +50,7 @@ for C1–C5!
 
 NOTE: In my experience, testing the PSU without a load works well enough.  The
 fans come on and the voltages are about right.  However, the LED doesn't light
-up until there is at least some load.
+up until there is at least some load. It might take a few power cycles before you can get stable power readings. 
 
 Voltages:
 
@@ -106,4 +106,4 @@ These instructions have been successfully tested on Model H7821-00 in 2024.
 
 * It should now be possible to tilt and swivel the PCB out of the frame. There is a little cutout in the end of the board which allow it to get past the back of the green LED but be careful not to end up breaking the leads to it. A bit of fiddling with the cable harness might be required to extract part of it from between the frame and the fans but it should not be necessary to disengage it completely from the frame in order to get at the back of the PCB.
 
-Warning: Do not attempt to remove the fans from the frame as the rivet-like things they are secured with cannot easily be reused and if they are replaced with nuts and bolts, the may end up vibrating loose or shorting to something on the board or both.
+Warning: Do not attempt to remove the fans from the frame as the rivet-like things they are secured with cannot easily be reused and if they are replaced with nuts and bolts, that may end up vibrating loose or shorting to something on the board or both.
