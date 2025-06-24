@@ -56,7 +56,7 @@ Voltages:
 
 image::vax_station_3100_M38_PSU_pinout.png["Output voltages on each pin"]
 
-Please note that 9V is between pins 13 and 14.
+Please note that -9V is between pins 13 and 14, but separately they do not give -9V. Measuring these -9V from both is not simple task.
 
 Model H7822-00
 --------------
