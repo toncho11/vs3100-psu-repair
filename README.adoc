@@ -56,8 +56,8 @@ Voltages:
 
 image::vax_station_3100_M38_PSU_pinout.png["Output voltages on each pin"]
 
-Notes on the -9V:
-* The -9V rail is provided differentially, meaning:
+The -9V rail is provided differentially, meaning:
+
 * Two pins carry voltages such that their difference is -9V.
 * Neither pin may be directly referenced to chassis or earth ground.
 * Measuring either pin to ground gives ambiguous or non-standard readings.
