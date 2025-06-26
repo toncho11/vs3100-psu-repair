@@ -56,6 +56,8 @@ Voltages:
 
 image::vax_station_3100_M38_PSU_pinout.png["Output voltages on each pin"]
 
+Pins 7 Brown is the DCOK. The Vax won't start if it is not HIGH.
+
 The -9V rail is provided differentially, meaning:
 
 * Two pins carry voltages such that their difference is -9V.
