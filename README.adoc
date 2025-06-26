@@ -56,7 +56,17 @@ Voltages:
 
 image::vax_station_3100_M38_PSU_pinout.png["Output voltages on each pin"]
 
-Please note that -9V is between pins 13 and 14, but separately they do not give -9V. Measuring these -9V from both is not simple task.
+Notes on the -9V:
+* The -9V rail is provided differentially, meaning:
+* Two pins carry voltages such that their difference is -9V.
+* Neither pin may be directly referenced to chassis or earth ground.
+* Measuring either pin to ground gives ambiguous or non-standard readings.
+* But Pin A – Pin B = -9V, consistently.
+* An oscilloscope must be confgiured properly (often with extra hardware) to measure it.
+
+Terms: Floating differential output, Split rail power, Symmetrical power supply, Differential voltage supply, Isolated supply outputs
+
+You’re seeing a differential -9V power output — common in DEC and other modular systems — where the -9V is defined as the voltage difference between two floating pins, not with respect to chassis ground. This approach allows for greater flexibility, noise rejection, and isolated subsystem design.
 
 Model H7822-00
 --------------
@@ -107,16 +117,3 @@ These instructions have been successfully tested on Model H7821-00 in 2024.
 * It should now be possible to tilt and swivel the PCB out of the frame. There is a little cutout in the end of the board which allow it to get past the back of the green LED but be careful not to end up breaking the leads to it. A bit of fiddling with the cable harness might be required to extract part of it from between the frame and the fans but it should not be necessary to disengage it completely from the frame in order to get at the back of the PCB.
 
 Warning: Do not attempt to remove the fans from the frame as the rivet-like things they are secured with cannot easily be reused and if they are replaced with nuts and bolts, that may end up vibrating loose or shorting to something on the board or both.
-
-- 9 Volts
----------
-* The -9V rail is provided differentially, meaning:
-* Two pins carry voltages such that their difference is -9V.
-* Neither pin may be directly referenced to chassis or earth ground.
-* Measuring either pin to ground gives ambiguous or non-standard readings.
-* But Pin A – Pin B = -9V, consistently.
-* An oscilloscope must be confgiured properly (often with extra hardware) to measure it.
-
-Terms: Floating differential output, Split rail power, Symmetrical power supply, Differential voltage supply, Isolated supply outputs
-
-You’re seeing a differential -9V power output — common in DEC and other modular systems — where the -9V is defined as the voltage difference between two floating pins, not with respect to chassis ground. This approach allows for greater flexibility, noise rejection, and isolated subsystem design.
